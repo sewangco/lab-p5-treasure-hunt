@@ -14,7 +14,7 @@ The goal is to reproduce the following grid.
 
 The `main.js` (that you will not forget from importing in your html too) will contain the starter code to manipulate your canvas.
 
-To finish this iteration, you have to write the code of the `drawGrid` function.
+To finish this iteration, you have to write the code of the `drawGrid` function, inside the `Game` class.
 
 ## Iteration 2
 
