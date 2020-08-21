@@ -2,36 +2,34 @@ class Player {
 constructor (){
     this.row= 0;
     this.col= 0;
-    
+    this.image;
 }
-preloadPlayer(){}
 
-setupPlayer(){}
+preloadPlayer(){
+   
+}
+setupPlayer(){
 
-drawPlayer(){}
+}
+
+drawPlayer(){
+    image(this.image, this.col, this.row, 100, 100);
+}
 
 moveUp(){
-    if (keyIsDown(38)){
-        console.log('up')
-        this.row += 1;
+    
+    this.row -= 100;
 }
-}
+
 moveDown(){
-    if (keyIsDown(40)){
-        console.log('down')
-        this.row -= 1;
-    }
+        this.row += 100;
 }
 moveLeft(){
-    if (keyIsDown(37)){
-        console.log('left')
-        this.col += 1;
-    }
+
+        this.col -= 100;
+
 }
 moveRight(){
-    if (keyIsDown(39)){
-        console.log('right')
-        this.col -= 1;
-    }
-    }
+        this.col += 100;
+}
 }
